@@ -31,5 +31,5 @@ streamlit.text(fruityvice_response.json())
 fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
 #show json as table
 streamlit.dataframe(fruityvice_normalized)
-
+ 
 
